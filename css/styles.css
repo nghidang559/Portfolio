@@ -1,0 +1,44 @@
+
+/* NAVBAR STYLES */
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: orange;
+  background-color: rgba(0,0,0,.6);
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-default
+.navbar-nav>li>a {
+  color: orange;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: red;
+  background-color: rbga(0,0,0,.25);
+}
+
+/* CAROUSEL STYLES */
+.item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.profitgrowth-bg {
+  background-image: url('../img/profitgrowth.jpg');
+}
+
+.flex-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.phone-bg {
+  background-image: url('../img/phone.jpg');
+}
