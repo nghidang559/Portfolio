@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Play|Sedgwick+Ave+Display');
+
+
+/* NAVBAR STYLES */
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #CF1717;
+  background-color: #E68100;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-default
+.navbar-nav>li>a {
+  color: E68100;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: red;
+  background-color: rbga(0,0,0,.25);
+}
+
+.navbar-brand {
+  height: 150px;
+  top-margin: -20px;
+}
+.navbar-brand img {
+  max-height: 100%;
+}
+
+/* CAROUSEL STYLES */
+.item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.item h2 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 48px;
+  color: #CF1717;
+}
+
+.item h3 {
+  font-family: 'Play', sans-serif;
+  color: #E68100;
+}
+
+.profitgrowth-bg {
+  background-image: url('../img/profitgrowth.jpg');
+}
+
+.phone-bg {
+  background-image: url('../img/phone.jpg');
+}
+
+@media (min-width:769px) {
+
+}
