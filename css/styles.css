@@ -10,25 +10,26 @@
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #CF1717;
+  color: white;
   background-color: #E68100;
   text-shadow: 1px 1px 1px #000;
 }
 
 .navbar-default
 .navbar-nav>li>a {
-  color: E68100;
+  color: #E68100;
   text-shadow: 1px 1px 1px #000;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: red;
+  color: white;
   background-color: rbga(0,0,0,.25);
 }
 
 .navbar-brand {
   height: 150px;
-  top-margin: -20px;
+  margin-top: -50px;
+  margin-left: -20px;
 }
 .navbar-brand img {
   max-height: 100%;
