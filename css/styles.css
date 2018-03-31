@@ -61,6 +61,16 @@
   background-image: url('../img/phone.jpg');
 }
 
-@media (min-width:769px) {
+@media (min-width: 675px) {
+  .item h3 {
+    color: green;
+}
 
+@media (min-width: 1025px) {
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: green;
+    }
+  .item h2 {
+    color: green;
+  }
 }
