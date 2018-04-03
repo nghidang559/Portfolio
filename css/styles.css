@@ -6,13 +6,13 @@
 .navbar-default {
   background-color: transparent;
   border: none;
-  margin-top: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: white;
   background-color: #E68100;
   text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
 }
 
 .navbar-default
@@ -25,11 +25,11 @@
   color: white;
   background-color: rbga(0,0,0,.25);
 }
-
 .navbar-brand {
-  height: 150px;
-  margin-top: -50px;
-  margin-left: -20px;
+  height: 130px;
+  margin-top: -30px;
+  margin-left: 0;
+  margin-bottom: -40px;
 }
 .navbar-brand img {
   max-height: 100%;
@@ -58,8 +58,20 @@
 }
 
 .phone-bg {
+  /* background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
   background-image: url('../img/phone.jpg');
 }
+
+.page-2 {
+  background: linear-gradient(to right,red,orange,yellow,green);
+  height: 100vh;
+}
+
+.row {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
 
 @media (min-width: 675px) {
   .item h3 {
@@ -68,7 +80,7 @@
 
 @media (min-width: 1025px) {
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: green;
+    background-color: green 0.8;
     }
   .item h2 {
     color: green;
