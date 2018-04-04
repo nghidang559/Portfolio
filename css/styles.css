@@ -63,8 +63,20 @@
 }
 
 .page-2 {
-  background: linear-gradient(to right,red,orange,yellow,green);
+  background: linear-gradient(to right,#CF1717,orange,#E68100,#6B8E23);
   height: 100vh;
+}
+
+.page-3 {
+  background: linear-gradient(to top,indigo,violet,forestgreen);
+  height: 100vh;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
 }
 
 .row {
