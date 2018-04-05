@@ -62,10 +62,9 @@
   background-image: url('../img/phone.jpg');
 }
 
-
 .page-2 {
   background: linear-gradient(to right,#CF1717,orange,#E68100,#6B8E23);
-  padding: 2em 0em;
+  padding: 2em;
 }
 
 
@@ -87,6 +86,11 @@
   height: 30px;
   padding-left: 10px;
 }
+/* .row {
+  flex: display;
+  justify-content: space-around;
+  justify-items: center;
+} */
 
 
 @media (min-width: 675px) {
