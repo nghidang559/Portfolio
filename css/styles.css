@@ -68,8 +68,6 @@
   padding: 2em 0em;
 }
 
-
-
 .page-3 {
   background: linear-gradient(to top,indigo,violet,forestgreen);
   padding: 2em;
@@ -86,7 +84,26 @@
   font-size: 2em;
   height: 30px;
   padding-left: 10px;
+
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.social-icons > a {
+  font-size: 2em;
+  height: 30px;
+  padding-left: 10px;
+}
+/* .row {
+  flex: display;
+  justify-content: space-around;
+  justify-items: center;
+} */
 
 
 @media (min-width: 675px) {
