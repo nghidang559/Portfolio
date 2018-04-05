@@ -62,16 +62,29 @@
   background-image: url('../img/phone.jpg');
 }
 
+
 .page-2 {
   background: linear-gradient(to right,#CF1717,orange,#E68100,#6B8E23);
   padding: 2em 0em;
 }
 
-
-
 .page-3 {
   background: linear-gradient(to top,indigo,violet,forestgreen);
   padding: 2em;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.social-icons > a {
+  font-size: 2em;
+  height: 30px;
+  padding-left: 10px;
+
 }
 
 .social-icons {
