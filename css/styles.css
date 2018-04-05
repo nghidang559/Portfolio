@@ -64,18 +64,21 @@
 
 .page-2 {
   background: linear-gradient(to right,#CF1717,orange,#E68100,#6B8E23);
-  height: 100vh;
+  padding: 2em 0em;
 }
+
+
 
 .page-3 {
   background: linear-gradient(to top,indigo,violet,forestgreen);
-  height: 100vh;
+  padding: 2em;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2em;
 }
 
 .social-icons > a {
@@ -83,15 +86,22 @@
   height: 30px;
   padding-left: 10px;
 }
-.row {
-  margin-left: 5px;
-  margin-right: 10px;
-}
+/* .row {
+  flex: display;
+  justify-content: space-around;
+  justify-items: center;
+} */
 
 
 @media (min-width: 675px) {
   .item h3 {
     color: green;
+  }
+  .row-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1025px) {
